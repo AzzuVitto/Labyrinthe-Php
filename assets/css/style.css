@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    background-color: #F09D16;
+}
+
+body {
+    background-color: #9B7941;
+}
+
+main {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    /* border: solid 1px black; */
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.cross-buttons {
+    display: grid;
+    align-content: center;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+
+.cross-button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color:#1586F0;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.cross-button[name="left"] {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cross-button[name="right"] {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.cross-button[name="up"] {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.cross-button[name="down"] {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.btn {
+    margin-top: 30px;
+    background:none;
+    border: none;
+    
+}
+
+.foggy {
+    border-radius: 100px;
+}
